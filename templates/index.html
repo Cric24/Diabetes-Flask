@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Web App</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetes Prediction Web App</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="Pregnancies">Number of Pregnancies:</label>
+                <input type="text" id="Pregnancies" name="Pregnancies">
+            </div>
+            
+            <div class="form-group">
+                <label for="Glucose">Glucose Level:</label>
+                <input type="text" id="Glucose" name="Glucose">
+            </div>
+            
+            <div class="form-group">
+                <label for="BloodPressure">Blood Pressure Level:</label>
+                <input type="text" id="BloodPressure" name="BloodPressure">
+            </div>
+            
+            <div class="form-group">
+                <label for="SkinThickness">Skin Thickness Value:</label>
+                <input type="text" id="SkinThickness" name="SkinThickness">
+            </div>
+            
+            <div class="form-group">
+                <label for="Insulin">Insulin Level:</label>
+                <input type="text" id="Insulin" name="Insulin">
+            </div>
+            
+            <div class="form-group">
+                <label for="BMI">BMI Level:</label>
+                <input type="text" id="BMI" name="BMI">
+            </div>
+            
+            <div class="form-group">
+                <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function:</label>
+                <input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
+            </div>
+            
+            <div class="form-group">
+                <label for="Age">Age:</label>
+                <input type="text" id="Age" name="Age">
+            </div>
+            
+            <button type="submit">Diabetes Test Result</button>
+        </form>
+
+        <h2>{{ diagnosis }}</h2>
+    </div>
+</body>
+</html>

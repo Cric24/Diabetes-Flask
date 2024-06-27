@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #473f6d2d;
+    padding: 30px;
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Increased shadow */
+    max-width: 600px; /* Wider container */
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px; /* Increased margin */
+    color: #333;
+    font-size: 3rem; /* Larger font size */
+}
+
+.form-group {
+    margin-bottom: 30px; /* Increased margin */
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin */
+    font-weight: 600;
+    color: #131010; /* Slightly lighter color */
+}
+
+.form-group input {
+    background-color: #ffffff65;
+    width: 94%;
+    padding: 15px; /* Increased padding */
+    border: 1px solid #ccccccd0; /* Lighter border */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.4); /* Increased shadow */
+}
+
+button {
+    display: inline-block; /* Changed to inline-block */
+    width: auto; /* Adjusted width */
+    padding: 18px 30px; /* Increased padding */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.4); /* Increased shadow */
+}
+
+h2 {
+    color: #1f1e1e;
+    margin-top: 40px; /* Increased margin */
+    font-size: 2.2rem; /* Larger font size */
+    font-weight: 600;
+}
